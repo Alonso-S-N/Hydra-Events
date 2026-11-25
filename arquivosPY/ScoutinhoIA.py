@@ -55,8 +55,8 @@ ESTRUTURA OBRIGATÓRIA DA RESPOSTA:
 
 # Ordem de preferência: tenta o mais barato primeiro; se der 503, pula para o próximo
 MODELOS_FALLBACK = [
-    "gemini-3.1-flash-lite",
     "gemini-2.5-flash-lite",
+    "gemini-3.1-flash-lite",
     "gemini-2.5-flash"
 ]
 
